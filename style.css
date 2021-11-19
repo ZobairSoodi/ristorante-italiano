@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
 nav ul{
     display:flex;
     justify-content: space-around;
@@ -10,6 +18,7 @@ nav img {
     margin: 0;
     padding: 0;
 }
+
 header{
     height: 100vh;
     background-image: url(Images/header_pic.jpg);
