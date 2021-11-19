@@ -1,0 +1,9 @@
+.service{
+    background-image: url(../Images/service.jpg);
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
