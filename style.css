@@ -2,9 +2,21 @@ body{
     margin: 0;
     padding: 0;
 }
+.gh{
+    height: 500px;
+}
+#language{
+    color: yellowgreen;
+    font-size: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
 nav{
     position: fixed;
     width: 100%;
+    background: rgb(224,216,216);
+    background: linear-gradient(0deg, rgba(224,216,216,0.19065126050420167) 3%, rgba(147,141,141,0.5379901960784313) 50%, rgba(194,208,210,0.26067927170868344) 97%);
 }
 nav ul{
     display:flex;
