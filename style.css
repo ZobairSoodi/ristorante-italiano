@@ -1,4 +1,12 @@
-body{
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color:white;
+}
+nav img {
+    width: 190px;
     margin: 0;
     padding: 0;
 }
