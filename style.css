@@ -1,6 +1,13 @@
+body{
+    background-color: burlywood;
+}
 nav ul{
     display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color:white;
 }
 nav img {
-    width: 100px;
+    width: 190px;
 }
