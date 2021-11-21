@@ -18,12 +18,18 @@ nav{
     background: rgb(224,216,216);
     background: linear-gradient(0deg, rgba(224,216,216,0.19065126050420167) 3%, rgba(147,141,141,0.5379901960784313) 50%, rgba(194,208,210,0.26067927170868344) 97%);
 }
-nav ul{
+.desk_menu{
     display:flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
     color:white;
+}
+#menu_btn{
+    display: none;
+}
+#expandable_menu{
+    display: none;
 }
 nav img {
     width: 190px;
@@ -60,4 +66,26 @@ header button{
     border-radius: 7px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px 20px;
+}
+
+@media(max-width:600px){
+    .desk_menu{
+        justify-content: space-around;
+        padding: 0;
+    }
+    .desk_list{
+        display: none;
+    }
+    #menu_btn{
+        display: inline-block;
+        font-size: 50px;
+    }
+    #menu_btn button{
+        color: white;
+        font-size: 50px;
+    }
+    #menu_btn:focus + #expandable_menu{
+        display: block;
+    }
+    
 }

@@ -11,15 +11,28 @@
 <body>
     <a href="#"><i id="language" class="fas fa-globe"></i></a>
     <nav>
-        <ul>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">OUR MENU</a></li>
-            <li><a href="#">SPECIAL OFFERS</a></li>
-            <li><a href="#"><img src="../Images/2.png"></a></li>
-            <li><a href="#">RESERVATION</a></li>
-            <li><a href="#">LOCATION</a></li>
-            <li><a href="#">SUBSCRIBE</a></li>
-    
+        <ul class="desk_menu">
+            <li class="desk_list"><a href="#">ABOUT US</a></li>
+            <li class="desk_list"><a href="#">OUR MENU</a></li>
+            <li class="desk_list"><a href="#">SPECIAL OFFERS</a></li>
+            <li id="logo_image"><a href="#"><img src="../Images/2.png"></a></li>
+            <li class="desk_list"><a href="#">RESERVATION</a></li>
+            <li class="desk_list"><a href="#">LOCATION</a></li>
+            <li class="desk_list"><a href="#">SUBSCRIBE</a></li>
+            <li id="expandable_menu">
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">OUR MENU</a></li>
+                    <li><a href="#">SPECIAL OFFERS</a></li>
+                    <li><a href="#">RESERVATION</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                    <li><a href="#">SUBSCRIBE</a></li>
+                </ul>
+            </li>
+            <li>
+                <input id="menu_btn" type="button">
+                    <i class="fas fa-bars"></i>
+            </li>
         </ul>
     </nav>
     <header>
