@@ -77,14 +77,15 @@ header button{
 .left p{
     width:70%;
     font-size: 23px;
+    font-family:monospace;
 }
 .left h1{
-    font-size: 45px;
-    font-family: ;
+    font-size: 55px;
+    font-family:'Amatic SC',cursive ;
+    margin: 0;
 }
 .right{
     width: 50%;
-}
-.right img{
-    width:100%;
+    object-fit: cover;
+    object-position: left;
 }
