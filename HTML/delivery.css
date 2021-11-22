@@ -1,0 +1,21 @@
+.delivery{
+    display: flex;
+}
+.delivery img{
+    width: 50%;
+}
+.delivery_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.delivery_text p{
+    width: 70%;
+    font-size: 20px;
+    font-family:monospace
+}
+.delivery_text h1{
+    font-family:"Asmatic SC",cursive;
+    font-size: 35px;
+}
