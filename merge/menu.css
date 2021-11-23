@@ -63,7 +63,10 @@
 .menu_item:hover .item_name{
     color: #3D3939;
 }
-
+.ingredients{
+    font-size: 17px;
+    text-align: center;
+}
 
 
 @media(max-width:1500px){
