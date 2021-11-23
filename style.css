@@ -67,6 +67,34 @@ header button{
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px 20px;
 }
+.about{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.left p{
+    width:70%;
+    font-size: 23px;
+    font-family:monospace;
+}
+.left h1{
+    font-size: 55px;
+    font-family:'Amatic SC',cursive ;
+    margin: 0;
+}
+.right{
+    width: 50%;
+    object-fit: cover;
+    object-position: left;
+}
 
 @media(max-width:600px){
     .desk_menu{
