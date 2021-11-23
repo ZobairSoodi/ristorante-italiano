@@ -2,9 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.gh{
-    height: 500px;
-}
+
 #language{
     color: yellowgreen;
     font-size: 40px;
