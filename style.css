@@ -116,6 +116,10 @@ header button{
     display: none;
     font-size: 50px;
 }
+.about{
+    display: flex;
+    flex-direction: row;
+}
 .left{
     display: flex;
     flex-direction: column;
