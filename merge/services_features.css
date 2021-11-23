@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.ser{
+    position: relative;
+}
+.ser .image{
+    background-color: black;
+    
+}
+.ser .image img{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.ser_txt{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ser_txt h2{
+    font-family: cursive;
+    font-size: 40px;font-style: oblique;
+}
+.ser_txt p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
