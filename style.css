@@ -2,8 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
-.gh{
-    height: 500px;
+.nav_color{
+    background-color: rgba(82, 78, 78, 0.8);
+    transition: all 0.4s;
+}
+.remove_nav_color{
+    transition: all 0.4s;
 }
 #language{
     color: yellowgreen;
@@ -14,9 +18,9 @@ body{
 }
 nav{
     position: fixed;
+    z-index: 100;
     width: 100%;
-    background: rgb(224,216,216);
-    background: linear-gradient(0deg, rgba(224,216,216,0.19065126050420167) 3%, rgba(147,141,141,0.5379901960784313) 50%, rgba(194,208,210,0.26067927170868344) 97%);
+
 }
 .desk_menu{
     display:flex;
@@ -28,9 +32,16 @@ nav{
 
 
 nav img {
-    width: 190px;
+    width: 150px;
     margin: 0;
     padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 header{

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="merge/delivery.css">
     <link rel="stylesheet" href="merge/features.css">
@@ -212,6 +215,19 @@
             <a href="#"><i class="fab fa-pinterest"></i></a>
         </div>
         </div>
-    
+    <script>
+        var nav = document.getElementsByTagName('nav')[0];
+        var height = nav.height
+        window.onscroll = function(){
+            if (window.pageYOffset>=100){
+                nav.classList.add("nav_color")
+                nav.classList.remove("remove_nav_color")
+            }
+            else{
+                nav.classList.remove("nav_color")
+                nav.classList.add("remove_nav_color")
+            }
+        }
+    </script>
 </body>
 </html>
