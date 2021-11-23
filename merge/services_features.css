@@ -7,7 +7,7 @@ body{
     position: relative;
 }
 .ser .image{
-    background-color: black;
+    background-color: #3D3939;
     
 }
 .ser .image img{
@@ -26,11 +26,12 @@ body{
     transform: translate(-50%,-50%);
 }
 .ser_txt h2{
-    font-family: cursive;
-    font-size: 40px;font-style: oblique;
+    font-family: "Asmatic SC",cursive;
+    font-size: 50px;
 }
 .ser_txt p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: monospace;
+    font-size: 25px;
     text-align: center;
+    margin: 0;
 }

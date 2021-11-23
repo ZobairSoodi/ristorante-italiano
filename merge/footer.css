@@ -54,9 +54,13 @@
     justify-content: space-evenly;
     width: 30%;
     padding-top: 40px;
-}
-.socials i:hover{
-    font-size: large;
+    font-size: 30px;
     color: #666;
-
+}
+.socials a{
+    text-decoration: none;
+    color: #666;    
+}
+.socials a:hover{
+    color: rgb(97, 90, 90);
 }
