@@ -24,21 +24,20 @@
             <li class="desk_list"><a href="#">RESERVATION</a></li>
             <li class="desk_list"><a href="#">LOCATION</a></li>
             <li class="desk_list"><a href="#">SUBSCRIBE</a></li>
-            <li id="expandable_menu">
-                <ul>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">OUR MENU</a></li>
-                    <li><a href="#">SPECIAL OFFERS</a></li>
-                    <li><a href="#">RESERVATION</a></li>
-                    <li><a href="#">LOCATION</a></li>
-                    <li><a href="#">SUBSCRIBE</a></li>
-                </ul>
-            </li>
-            <li>
-                <input id="menu_btn" type="button">
-                    <i class="fas fa-bars"></i>
-            </li>
+
+            <label id="menu_open" for="menu_btn"><i class="fas fa-bars"></i></label>
+            <input id="menu_btn" type="checkbox" value="menu">
+            <div class="nav_menu">
+                <label id="menu_close" for="menu_btn"><i class="fas fa-times-circle"></i></label>
+                <a href="#">ABOUT US</a>
+                <a href="#">OUR MENU</a>
+                <a href="#">SPECIAL OFFERS</a>
+                <a href="#">RESERVATION</a>
+                <a href="#">LOCATION</a>
+                <a class="last" href="#">SUBSCRIBE</a>
+            </div>
         </ul>
+        
     </nav>
     <header>
         <h1>
