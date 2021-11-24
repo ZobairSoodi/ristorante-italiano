@@ -67,18 +67,32 @@
     font-size: 17px;
     text-align: center;
 }
-
+.ser_txt h2{
+    font-size: 25px;
+}
 
 @media(max-width:1500px){
     .menu_item img{height: 250px;}
 }
 @media(max-width:1200px){
+    nav img{
+        width: 120px;
+    }
+    nav .desk_list a{
+        font-size: 17px;
+    }
     .menu_item img{height: 200px;}
     .menu_item{font-size: 20px;}
 }
 @media(max-width:1000px){
+    nav img{
+        width: 110px;
+    }
     .menu_item img{height: 150px;}
     .menu_item{font-size: 15px;}
+    nav .desk_list a{
+        font-size: 13px;
+    }
     .ser .image img{
         height: 600px;
         object-fit: cover;
@@ -89,7 +103,28 @@
     .ser_txt p{
         font-size:24px ;
     }
+    .subscribe{
+        flex-direction: column;
+    }
+    .subscribe button{
+        margin: 20px 0 0 0;
+    }
+    .footer_text span{
+        width: 80%;
+        text-align: center;
+    }
+    .socials{
+        width: 50%;
+    }
+    .about p{
+        font-size: 19px;
+    }
+    .about h1{
+        font-size: 40px;
+    }
 }
+
+
 @media(max-width:768px){
     .menu_item img{height: 200px;}
     .menu_item{width: 40%;}
@@ -127,7 +162,48 @@
         font-size: 17px;
         width: 70%;
     }
+    .ser .image img{
+        height: 400px;
     }
+    .ser_txt{
+        width: 90%;
+    }
+    .ser_txt h2{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .ser_txt p{
+        font-size: 20px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about .left, .about img{
+        width: 100%;
+    }
+    .about p{
+        font-size: 23px;
+    }
+    .about h1{
+        font-size: 50px;
+    }
+    .desk_menu{
+        justify-content: space-around;
+        padding: 0;
+    }
+    .desk_list{
+        display: none;
+    }
+    #menu_btn:checked + .nav_menu{
+        transform: translate(0,0);
+    }
+    #menu_open i{
+        display: block;
+    }
+    
+}
+
 
 @media(max-width:600px){
     .menu_item img{width: 80%;}
@@ -135,4 +211,10 @@
 }
 @media(max-width:500px){
     .menu_item img{height: 170px;width: 100%;}
+    .about p{
+        font-size: 19px;
+    }
+    .about h1{
+        font-size: 40px;
+    }
 }

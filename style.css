@@ -15,6 +15,27 @@ body{
     position: fixed;
     right: 20px;
     bottom: 20px;
+    z-index: 2;
+}
+#language a{
+    color: yellowgreen;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+}
+#language_check{
+    display: none;
+}
+.language_list{
+    padding: 0 20px;
+    display: none;
+    position: absolute;
+    transform: translate(-100%,-100%);
+    background-color: #3d3939;
+}
+#language_check:checked + .language_list{
+    display: block;
 }
 nav{
     position: fixed;
@@ -56,12 +77,14 @@ header{
     color: white;
 }
 header h1{
+    text-align: center;
     margin: 0;
     display: inline-block;
     font-family: cursive;
     font-size: 50px;
 }
 header p{
+    text-align: center;
     font-size: 30px;
     font-family: cursive;
 }
@@ -97,7 +120,7 @@ header button{
     padding: 100px;
     transition-property: transform;
     transition-timing-function: cubic-bezier(0.04, 0.43, 0.38, 1.01);
-    transition-duration: 0.7s;
+    transition-duration: 0.7S;
 }
 .nav_menu a{
     position: relative;
@@ -156,17 +179,5 @@ header button{
 }
 
 @media(max-width:600px){
-    .desk_menu{
-        justify-content: space-around;
-        padding: 0;
-    }
-    .desk_list{
-        display: none;
-    }
-    #menu_btn:checked + .nav_menu{
-        transform: translate(0,0);
-    }
-    #menu_open i{
-        display: block;
-    }
+    
 }
