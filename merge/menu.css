@@ -84,7 +84,10 @@
         object-fit: cover;
     }
     .ser_txt h2{
-        font-size: 40px;
+        font-size: 33px;
+    }
+    .ser_txt p{
+        font-size:24px ;
     }
 }
 @media(max-width:768px){
@@ -106,7 +109,26 @@
     .delivery p{
         font-size: 20px;
     }
-}
+    .features{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .feature h2{
+        font-size: 39px;
+    }
+    .feature p{
+        font-size: 17px;
+        width: 70%;
+    }
+    }
+
 @media(max-width:600px){
     .menu_item img{width: 80%;}
     .menu_item{width: 100%;flex-direction: column;}
