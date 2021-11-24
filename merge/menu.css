@@ -79,10 +79,33 @@
 @media(max-width:1000px){
     .menu_item img{height: 150px;}
     .menu_item{font-size: 15px;}
+    .ser .image img{
+        height: 600px;
+        object-fit: cover;
+    }
+    .ser_txt h2{
+        font-size: 40px;
+    }
 }
 @media(max-width:768px){
     .menu_item img{height: 200px;}
     .menu_item{width: 40%;}
+    .delivery{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .delivery img{
+        width: 70%;
+    }
+    .delivery h1{
+        font-size: 37px;
+        margin-bottom: 0;
+    }
+    .delivery p{
+        font-size: 20px;
+    }
 }
 @media(max-width:600px){
     .menu_item img{width: 80%;}
