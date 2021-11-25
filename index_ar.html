@@ -33,24 +33,24 @@
     <!-- navigation bar -->
     <nav>
         <ul class="desk_menu">
-            <li class="desk_list"><a href="#">ABOUT US</a></li>
-            <li class="desk_list"><a href="#">OUR MENU</a></li>
-            <li class="desk_list"><a href="#">SPECIAL OFFERS</a></li>
+            <li class="desk_list"><a href="#">نبذة عنا</a></li>
+            <li class="desk_list"><a href="#">لائحة الطعام</a></li>
+            <li class="desk_list"><a href="#">عروض خاصة</a></li>
             <li id="logo_image"><a href="#"><img src="../ristorante-italiano/Images/2.png"></a></li>
-            <li class="desk_list"><a href="#">RESERVATION</a></li>
-            <li class="desk_list"><a href="#">LOCATION</a></li>
-            <li class="desk_list"><a href="#">SUBSCRIBE</a></li>
+            <li class="desk_list"><a href="#">إتصل بنا</a></li>
+            <li class="desk_list"><a href="#">موقعنا</a></li>
+            <li class="desk_list"><a href="#">إشترك معنا</a></li>
 
             <label id="menu_open" for="menu_btn"><i class="fas fa-bars"></i></label>
             <input id="menu_btn" type="checkbox" value="menu">
             <div class="nav_menu">
                 <label id="menu_close" for="menu_btn"><i class="fas fa-times-circle"></i></label>
-                <a href="#">ABOUT US</a>
-                <a href="#About">OUR MENU</a>
-                <a href="#">SPECIAL OFFERS</a>
-                <a href="#">RESERVATION</a>
-                <a href="#">LOCATION</a>
-                <a class="last" href="#">SUBSCRIBE</a>
+                <a href="#">نبذة عنا</a>
+                <a href="#">لائحة الطعام</a>
+                <a href="#">عروض خاصة</a>
+                <a href="#">إتصل بنا</a>
+                <a href="#">موقعنا</a>
+                <a class="last" href="#">إشترك معنا</a>
             </div>
         </ul>
     </nav>
@@ -59,13 +59,13 @@
     <!-- header I guess... -->
     <header>
         <h1>
-            A taste of legends
+            ألذ ما في الوجود
         </h1>
         <p>
-            It's not the fork that makes the right dish
+            استمتع بإيطاليا من خلال أكلاتنا
         </p>
         <button>
-            <a href="#About" style="text-decoration: none;color: white;">SEE OUR MENU</a>
+            <a href="#About" style="color: white;text-decoration: none;">تفقد قائمتنا</a>
         </button>
     </header>
 
@@ -73,8 +73,13 @@
     <!-- about section -->
     <div class="about">
         <div class="left">
-            <h1>About</h1>
-            <p>Our Chef offers you perfect cooking, best served dishes with fresh ingredients and old recipes. We have only carefully sourced and seasonal ingredients in our disposal to make rustic dishes. We provide you with daily self-made bread, sourdough pizza, roasted fish-meat-vegetables and many more.</p>
+            <h1>نبذة عنا</h1>
+            <p>مطعمنا يتوفر على أحسن المأكولات،
+                مطبوخة بأفضل المكونات، ومستوحاة 
+               من أعرق الوصفات.
+               طباخنا إيطالي الأصل، يتمتع بذوق
+                مثالي و أسلوب طبخ رائع
+               ورثه عن أجداده.</p>
         </div>
         <img class="right" src="../ristorante-italiano/Images/marcello.jpg">
     </div>
@@ -85,8 +90,9 @@
     I don't want more problems to fix... I already have life to deal with. -->
     <a name="About"></a>
     <main>
+        <span id="#menu" ></span>
         <div class="menu_container">
-            <h1>MENU</h1>
+            <h1>لائحة الطعام</h1>
             <div class="menu">
                 <div class="menu_item">
                     <img src="../ristorante-italiano/Images/lasagna.jpg">
@@ -102,7 +108,7 @@
                         </span>
                     </div>
                     <span class="item_name">
-                        Lasagna
+                        لازانيا
                     </span>
                 </div>
                 <div class="menu_item">
@@ -119,7 +125,7 @@
                         </span>
                     </div>
                     <span class="item_name">
-                        Rice Pizza Crust
+                        بيتزا بقشرة الأرز
                     </span>
                 </div>
                 <div class="menu_item">
@@ -136,7 +142,7 @@
                         </span>
                     </div>
                     <span class="item_name">
-                        spaghetti bolognese 
+                        معكرونة بولونية  
                     </span>
                 </div>
                 <div class="menu_item">
@@ -153,7 +159,7 @@
                         </span>
                     </div>
                     <span class="item_name">
-                        Spaghetti Carbonara
+                        معكرونة كاربونارا
                     </span>
                 </div>
                 <div class="menu_item">
@@ -170,7 +176,7 @@
                         </span>
                     </div>
                     <span class="item_name">
-                        Spinach Ravioli
+                        رافيولي بالسبانخ
                     </span>
                 </div>
                 <div class="menu_item">
@@ -187,20 +193,21 @@
                         </span>
                     </div>
                     <span class="item_name">
-                        Shrimp Spaghettini
+                        معكرونة بالجمبري
                     </span>
                 </div>
             </div>
         </div>
     </main>
-
+    
 
     <!-- delivery section -->
     <div class="delivery">
         <img src="../ristorante-italiano/Images/pizza-man.png">
         <div class="delivery_text">
-            <h1>DELIVERY</h1>
-            <p>We can deliver your food to your home  No matter where you are. the pleasure of the authentic Italian taste is here. Enjoy it. </p>
+            <h1>التوصيل</h1>
+            <p>يمكننا إيصال الطعام إلى منزلك أينما كنت.
+                لذة المأكولات الإيطالية قد أتت في أبها حلتها.</p>
         </div>
     </div>
 
@@ -212,9 +219,9 @@
         </div>
         <div class="ser_txt">
             <h2>
-                Best Service Ever
+                نقدم أفضل الخدمات
             </h2>
-            <p>Our 3 Michelin Stars ensure that your experience regarding our cuisine will be one that you will not forget.</p>
+            <p>نضمن أن تجربتك فيما يتعلق بالطبخ الإيطالي ستكون لا تنسى</p>
         </div>
     </div>
 
@@ -224,37 +231,43 @@
         <div class="feature">
             <i class="fas fa-birthday-cake"></i>
             <h2>
-                Birthdays
+                أعياد الميلاد
             </h2>
             <p>
-                Book a table for two with the best
-                 Italian dishes served for the anniversary. 
-                 Or reserve a bigger one for a huge family to get
-                  together one sunny day. Gather your friends together
+                احجز طاولة لشخصين مع أفضل الأطباق
+                الإيطالية في الذكرى السنوية. أو احجز
+                واحدة أكبر لعائلة كبيرة لتلتقي معا
+                في يوم مشمس. اجمع أصدقاءك
+                معا
             </p>
         </div>
             
         <div class="feature">
             <i class="fas fa-users"></i>
             <h2>
-                Meetings
+                الإجتماعات
             </h2>
             <p>
-                You can also impress your boss by choosing the 
-                best place for corporate party with your co-workers. Reserve a spacious room, set the menu, 
-                choose the drinks and invite guests.
+                يمكنك أيضا إقناع رئيسك في العمل
+                عن طريق اختيار أفضل مكان
+                لحفل الشركة مع زملائك
+                في العمل. احجز غرفة فسيحة ،
+                وقم بتعيين القائمة ،
+                واختر المشروبات وادعُ الضيوف.
             </p>
         </div>
         
         <div class="feature">
             <i class="fas fa-glass-cheers"></i>
             <h2>
-                wedding
+                الأعراس
             </h2>
             <p>
-                75 seats for 75 guests are all at your disposal. 
-                Organize a party for a huge company and have fun in the restauran. Show your friends the real world of European 
-                cuisine and especially Italian vibes.
+                75 مقعدًا تتسع لـ 75 ضيفا كلها تحت 
+                تصرفك. نظموا حفلة لشركة ضخمة 
+                واستمتعوا في المطعم. أظهر لأصدقائك 
+                العالم الحقيقي للمطبخ الأوروبي وخاصة  
+                المشاعر الإيطالية.
             </p>
         </div>
     </div>
@@ -274,12 +287,14 @@
     <!-- Footer -->
     <div class="footer">
         <div class="footer_text">
-            <h1>DISCOUNT COUPON</h1>
-            <span>Enter your email address for a 20% off voucher next time you come visit us.</span>
+            <h1>قسيمة الخصم</h1>
+            <span>أدخل عنوان بريدك الإلكتروني للحصول على
+                قسيمة خصم بنسبة 02٪ في المرة القادمة
+                التي تأتي فيها لزيارتنا.</span>
         </div>
         <div class="subscribe">
-            <input type="text" placeholder="Your Email Address">
-            <button>Subscribe</button>
+            <input type="text" placeholder="عنوان بريدك الإلكتروني">
+            <button>الإشتراك</button>
         </div>
         <div class="socials">
             <a href="#"><i class="fab fa-facebook"></i></a>

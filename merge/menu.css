@@ -14,6 +14,10 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.menu_container h1{
+    font-family: 'Amatic SC',cursive;
+    font-size: 60px;
+}
 .menu_item{
     width: 25.1%;
     font-size: 23px;
