@@ -18,10 +18,10 @@
     color: #E5B91D;
 }
 .feature h2{
-    font-size: 70px;
+    font-size: 40px;
     margin: 30px 0 0 0;
     font-weight: 400;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Inter', sans-serif;
 }
 .feature p{
     font-size: 25px;
